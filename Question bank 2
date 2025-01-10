@@ -1,0 +1,76 @@
+### **Beginner-Level Questions**
+1. **Simple Queries**:
+   - Retrieve the first and last names of all customers.
+   - List all unique categories of movies.
+   - Find all actors whose last name starts with "A."
+
+2. **Sorting and Filtering**:
+   - Display all customers who joined after `2006-01-01`.
+   - List all movies in the `Comedy` category.
+   - Retrieve the top 5 most recently updated actors.
+
+3. **Basic Aggregations**:
+   - Count the total number of customers.
+   - Find the number of movies available in each category.
+   - Calculate the total payment received from all customers.
+
+---
+
+### **Intermediate-Level Questions**
+4. **Joins**:
+   - Retrieve the names of all movies rented by a specific customer (`customer_id = 1`).
+   - List all actors who acted in movies in the `Action` category.
+   - Get a list of customers and the total amount they have paid (use `JOIN` with the `payment` table).
+
+5. **Subqueries**:
+   - Find the customer who made the highest total payment.
+   - List all movies that have not been rented in the last year.
+   - Retrieve the names of categories with more than 20 movies.
+
+6. **Date Functions**:
+   - Calculate the age of each customer based on their `create_date`.
+   - Find the number of rentals made in the last 30 days.
+   - Retrieve the average rental duration of all movies.
+
+---
+
+### **Advanced-Level Questions**
+7. **Complex Joins and Aggregations**:
+   - Find the category with the highest revenue.
+   - List all customers along with the number of movies they have rented and the total amount spent.
+   - Rank actors based on the number of movies they have appeared in.
+
+8. **Window Functions**:
+   - Display a running total of payments made by customers.
+   - Find the most rented movie in each category.
+   - List the top 3 customers based on their total payment amount.
+
+9. **Data Manipulation**:
+   - Add a new category named `Documentary` to the `category` table.
+   - Update the rental duration for all movies in the `Horror` category to 7 days.
+   - Delete all customers who have never made a payment.
+
+---
+
+### **Power BI Dashboard Questions**
+For creating dashboards using the `dvdrental` database, consider these questions:
+1. **Sales and Revenue Insights**:
+   - Total revenue over time (e.g., monthly or yearly trends).
+   - Revenue breakdown by category or store.
+   - Top customers by total spending.
+
+2. **Customer Behavior Analysis**:
+   - Number of rentals by customer age group or region.
+   - Average rental duration by movie category.
+   - Retention analysis: How many customers rent multiple times?
+
+3. **Inventory Management**:
+   - Availability of movies in each store.
+   - Most rented movies vs. least rented movies.
+   - Movies with no rentals in the past year.
+
+4. **Operational Metrics**:
+   - Staff performance: Number of rentals processed by each staff member.
+   - Average processing time for rentals and returns.
+   - Comparison of store performance (e.g., revenue, rentals, customer feedback).
+-------------------------------------------------------THE END ------------------------------------------------------------------------------------------------
